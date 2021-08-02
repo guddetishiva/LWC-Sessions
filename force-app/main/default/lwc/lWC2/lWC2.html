@@ -1,0 +1,16 @@
+<template>
+    <div>
+        <lightning-input type ="checkbox" label ="Show" onchange ={Hnadler}></lightning-input>
+
+
+    </div>
+    <template if:true ={isTrue}>
+        <div>y
+           I am Here
+        </div>
+    </template>
+    <template for:each ={CountryCities} for:item ="x">
+        <p key ={x}>{x}</p>
+    </template>
+    
+</template>
