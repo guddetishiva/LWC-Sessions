@@ -1,5 +1,6 @@
 public with sharing class DemoLWC {
-    public DemoLWC() {
+    public static void print(){
+        system.debug("Hello");
 
     }
 }
